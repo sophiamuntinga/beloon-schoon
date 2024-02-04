@@ -77,9 +77,16 @@ header {
     margin-bottom: 20%;
  }
  
-img {
+.logo-header{ 
     display: flex;
     width: 23%;
+    padding-left: 5%;
+    align-items: center;
+}
+
+img {
+    display: flex;
+    width: 50%;
     padding-left: 5%;
     align-items: center;
 }
@@ -106,7 +113,7 @@ main article h1 {
     letter-spacing: 0.05em;
 }
 
-main article section img {
+main article img {
     width: 40%;
 }
 
@@ -115,9 +122,11 @@ p {
     font-family: jost;
 }
 
-div.stappen {
+section.stappen {
     padding: 15%;
 }
+
+
 
 /* locaties pagina specifiek */
 div.kaart img {
@@ -132,7 +141,7 @@ div.kaart {
     padding: 10%;
 }
 
-main article section {
+main article {
     padding: 10%;
     margin-bottom: 5%;
 }
